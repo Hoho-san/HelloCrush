@@ -10,8 +10,8 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.transform = "translate(" + rand + "px," + rand2 + "px)";
 });
 noBtn.addEventListener("click", () => {
-    let rand = Math.floor(Math.random() * (100 - 50) + 1);
-    let rand2 = Math.floor(Math.random() * (-100 - 50) + 1);
+    let rand = Math.floor(Math.random() * 200 + 1);
+    let rand2 = Math.floor(Math.random() * 200 + 1);
     noBtn.style.transform = "translate(" + rand + "px," + rand2 + "px)";
 });
 
