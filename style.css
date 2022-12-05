@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(255, 176, 176);
+    /* background-color: rgb(255, 176, 176); */
+    background-image: url("https://wallpapercave.com/wp/wp6581113.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
     height: 500px;
     width: 40%;
     margin-left: 450px;
@@ -25,8 +29,7 @@ p {
     margin-right: 100px;
 }
 button {
-    color: black;
-    background-color: rgb(189, 0, 0);
+    background-color: rgb(255, 128, 128);
     border-radius: 16%;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
