@@ -11,11 +11,12 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    /* background-color: rgb(255, 176, 176); */
     background-image: url("https://wallpapercave.com/wp/wp6581113.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@ h1 {
     margin-right: 100px;
 }
 button {
-    background-color: rgb(255, 128, 128);
+    background-color: rgb(221, 48, 48);
     border-radius: 10px;
     border: hidden;
     font-size: 3rem;

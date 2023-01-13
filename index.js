@@ -5,13 +5,13 @@ let btn = document.getElementById("btn");
 let position;
 
 noBtn.addEventListener("mouseover", () => {
-    let rand = Math.floor(Math.random() * 250 + 1);
-    let rand2 = Math.floor(Math.random() * 250 + 2);
+    let rand = Math.floor(Math.random() * 300 + 1);
+    let rand2 = Math.floor(Math.random() * 300 + 1);
     noBtn.style.transform = "translate(" + rand + "px," + rand2 + "px)";
 });
 noBtn.addEventListener("click", () => {
-    let rand = Math.floor(Math.random() * 200 + 1);
-    let rand2 = Math.floor(Math.random() * 200 + 1);
+    let rand = Math.floor(Math.random() * 300 + 1);
+    let rand2 = Math.floor(Math.random() * 300 + 1);
     noBtn.style.transform = "translate(" + rand + "px," + rand2 + "px)";
 });
 
